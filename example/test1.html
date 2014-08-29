@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="CHARSET" content="utf-8">
+    <title>baidu umedirot for angular with plupload&qiniu</title>
+    <!--<link rel="stylesheet" href="../lib/umeditor1_2_2-utf8/themes/default/css/umeditor.css" media="screen" charset="utf-8">-->
+    <script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+    <!--<script type="text/javascript" charset="utf-8" src="../lib/umeditor1_2_2-utf8/umeditor.config.js"></script>-->
+    <!--<script type="text/javascript" charset="utf-8" src="../lib/umeditor1_2_2-utf8/umeditor.js"></script>-->
+    <!--<script type="text/javascript" src="../lib/umeditor1_2_2-utf8/lang/zh-cn/zh-cn.js"></script>-->
+    <link rel="stylesheet" type="text/css" href="../build/jquery-ui.min.css" media="screen" charset="utf-8">
+    <!--<link rel="stylesheet" type="text/css" href="../lib/plupload-2.1.2/jquery.ui.plupload/css/jquery.ui.plupload.css" media="screen" charset="utf-8">-->
+    <script src="../build/jquery-ui.min.js" charset="utf-8"></script>
+    <!--<script charset="utf-8" src="../lib/plupload-2.1.2/plupload.full.min.js"></script>-->
+    <!--<script charset="utf-8" src="../lib/plupload-2.1.2/jquery.ui.plupload/jquery.ui.plupload.js"></script>-->
+    <!--<script src="../lib/plupload-2.1.2/i18n/zh_CN_Image.js" charset="utf-8"></script>-->
+    <!--<script src="../lib/qiniu/qiniu-simplify.js" charset="utf-8"></script>-->
+    <link rel="stylesheet" href="../build/umeditor.min.css" />
+    <script src="../build/umeditor.min.js"></script>
+    <script src="angular.min.js"></script>
+    <script src="../angular-umeditor.js"></script>
+  </head>
+  <body ng-app="app">
+  <div ng-controller="ctrl1">
+      <textarea ng-umeditor ng-model="content" style="width: 800px; height: 310px;"></textarea>
+      {{ content }}
+  </div>
+
+  </body>
+  <script>
+      angular.module('app', ['ng-umeditor']).controller('ctrl1', function($scope){
+          $scope.content = '';
+      });
+  </script>
+</html>
