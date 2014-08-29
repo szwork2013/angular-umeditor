@@ -4,6 +4,7 @@ baidu umeditor for angularjs
 
 > * 将图片上传功能调整为 plupload 上传组件(并且该功能组件使用了简化过的 (qiniu javascript sdk->`lib/qiniu/qiniu-simplify.js`) 封装，可以直接将图片上传至七牛云存储, 只需要简单的配置)
 > * 将视频插入功能修改为，插入一个 iframe 标签。(目前只支持youku，没有做其他视频网站处理)
+
 # get
 `bower install ng-umeditor`
 # build
