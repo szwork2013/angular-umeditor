@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a817065-c13f-42e9-bc67-47ca7eed5c89" name="Default" comment="">
-      <change type="DELETED" beforePath="F:\ng-ueditor\Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\ng-ueditor\angular-umeditor.js" afterPath="" />
+      <change type="DELETED" beforePath="F:\ng-ueditor\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="F:\ng-ueditor\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\ng-ueditor\.idea\jsLibraryMappings.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\ng-ueditor\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\ng-ueditor\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\ng-ueditor\.idea\ng-ueditor.iml" afterPath="" />
+      <change type="DELETED" beforePath="F:\ng-ueditor\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\ng-ueditor\.idea\watcherTasks.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ng-ueditor.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,16 +34,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39940828" vertical-offset="0" max-vertical-offset="954">
-              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            <state vertical-scroll-proportion="-14.785714" vertical-offset="0" max-vertical-offset="954">
+              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
               <folding />
             </state>
           </provider>
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.07531381" vertical-offset="0" max-vertical-offset="717">
+              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -62,13 +80,13 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/node_modules/grunt-contrib-htmlmin/node_modules/html-minifier/README.md" />
         <option value="$PROJECT_DIR$/lib/qiniu/qiniu-simplify.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/example/test1.html" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/lib/umeditor1_2_2-utf8/umeditor.config.js" />
         <option value="$PROJECT_DIR$/Gruntfile.coffee" />
         <option value="$PROJECT_DIR$/angular-umeditor.coffee" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -512,13 +530,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.040223464" vertical-offset="0" max-vertical-offset="895">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09756097" vertical-offset="0" max-vertical-offset="738">
@@ -561,13 +572,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39940828" vertical-offset="0" max-vertical-offset="954">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        <state vertical-scroll-proportion="-14.785714" vertical-offset="0" max-vertical-offset="954">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07531381" vertical-offset="0" max-vertical-offset="717">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
