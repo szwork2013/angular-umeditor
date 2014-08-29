@@ -1,5 +1,5 @@
 {
-  "name": "ng-ueditor",
+  "name": "ng-umeditor",
   "version": "0.0.1",
   "description": "baidu umeditor -> angularjs | patch image upload use plupload+qiniu cloud storage",
   "main": "server.js",
