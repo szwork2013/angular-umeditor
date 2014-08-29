@@ -1,7 +1,7 @@
 {
-    "name": "rgraph2",
-    "version": "1.0.0",
-    "main": "",
+    "name": "umeditor",
+    "version": "0.0.1",
+    "main": "angular-umeditor.coffee",
     "dependencies": {
         "angularjs": "1.2.20"
     },
